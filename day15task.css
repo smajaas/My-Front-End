@@ -1,0 +1,72 @@
+.office-img {
+
+    background:url("https://ychef.files.bbci.co.uk/976x549/p09nsxm4.jpg") hsl(277,64%,61%);
+    min-height: 20rem;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+.insight {
+    color: hsl(277,64%,61%);
+}
+
+.card-social-media {
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+section {
+    background-color: hsl(244,38%,16%);
+    color:white;
+    text-align: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-count {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.card-count + p {
+    font-size: 0.9rem;
+    margin: 0;
+    letter-spacing: 2.5px;
+}
+
+.card-content {
+    padding:2rem;
+}
+
+.info-tag,.card-count + p {
+    font: weight 100px;;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width :600px) {
+    section {
+        display: flex;
+        text-align: left;
+        max-width: 45rem;
+    }
+    .office-img {
+       min-width:15rem;
+        }
+
+        .card-social-media {
+            flex-direction: row;
+            justify-content: space-between;
+        }          
+}
+    
